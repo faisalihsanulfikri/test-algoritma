@@ -17,3 +17,13 @@ function brackerMatcher(brackers) {
   }
   return 'Yes';
 }
+
+function round(brackets) {
+  return brackets[0] == `(` && brackets[1] == `)`;
+}
+function curly(brackets) {
+  return brackets[0] == `{` && brackets[1] == `}`;
+}
+function square(brackets) {
+  return brackets[0] == `[` && brackets[1] == `]`;
+}
